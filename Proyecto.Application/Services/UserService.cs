@@ -1,0 +1,119 @@
+﻿using Proyecto.Application.IServices;
+using Proyecto.Application.Models.Request;
+using Proyecto.Application.Models.Dtos;
+using Proyecto.Application.Repositories;
+using Proyecto.Domain.Models;
+
+namespace Proyecto.Application.Services
+{
+    public class UserService : IUserService
+    {
+        private readonly IUserRepository _userRepository;
+
+        public UserService(IUserRepository userRepository)
+        {
+            _userRepository = userRepository;
+        }
+
+        public ICollection<UserDto> GetAll()
+        {
+
+            var users = _userRepository.GetAllUsers();
+            return users.Select(u => new UserDto { Name = u.Name, Email = u.Email, Role = u.Role }).ToList();
+        }
+
+        public User GetByName(string name)
+        {
+            var user = _userRepository.GetByName(name);
+            return user;
+        }
+
+        public UserDto Create(UserSaveRequest user)
+        {
+            switch (user.Role.ToLower())
+            {
+                case "admin":
+                    var newAdmin = new Admin
+                    {
+                        Name = user.Name,
+                        Email = user.Email,
+                        Password = user.Password,
+                        Role = "admin",
+                        Activo = true
+                    };
+                    _userRepository.AddUser(newAdmin);
+                    return new UserDto { Name = newAdmin.Name, Email = newAdmin.Email, Role = newAdmin.Role };
+
+                case "dev":
+                    var newDev = new Dev
+                    {
+                        Name = user.Name,
+                        Email = user.Email,
+                        Password = user.Password,
+                        Role = "dev",
+                        Activo = true
+                    };
+                    _userRepository.AddUser(newDev);
+                    return new UserDto { Name = newDev.Name, Email = newDev.Email, Role = newDev.Role };
+
+                case "client":
+                    var newCliente = new Client
+                    {
+                        Name = user.Name,
+                        Email = user.Email,
+                        Password = user.Password,
+                        Role = "client",
+                        Activo = true
+                    };
+                    _userRepository.AddUser(newCliente);
+                    return new UserDto { Name = newCliente.Name, Email = newCliente.Email, Role = newCliente.Role };
+
+                default:
+                    throw new ArgumentException("Error en Rol de User");
+            }
+        }
+
+        public void DeleteUser(int id)
+        {
+            var user = _userRepository.GetUserById(id);
+            if (user != null)
+            {
+                user.Activo = false;
+                _userRepository.UpdateUser(user);
+            }
+            else
+            {
+                throw new Exception("El usuario no existe");
+            }
+        }
+
+        public UserDto GetById(int id)
+        {
+            var user = _userRepository.GetUserById(id);
+            if (user != null)
+            {
+                return new UserDto { Name = user.Name, Email = user.Email, Role = user.Role };
+            }
+            else
+            {
+                throw new Exception("El usuario no existe");
+            }
+        }
+
+        public UserDto UpdateUser(int id, UserSaveRequest user)
+        {
+            var NotNullUser = _userRepository.GetUserById(id);
+            if (NotNullUser == null)
+            {
+                throw new ArgumentException("El usuario no existe.");
+            }
+
+            NotNullUser.Name = user.Name;
+            NotNullUser.Email = user.Email;
+            NotNullUser.Role = user.Role;
+
+            _userRepository.UpdateUser(NotNullUser);
+            return new UserDto { Name = NotNullUser.Name, Email = NotNullUser.Email, Role = NotNullUser.Role };
+        }
+    }
+}
