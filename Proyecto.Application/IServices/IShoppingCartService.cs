@@ -1,15 +1,17 @@
 ﻿using Proyecto.Domain.Models;
 using System;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Proyecto.Application.Repositories
+namespace Proyecto.Application.IServices
 {
-    internal interface IShoppingCartService
+    public interface IShoppingCartService
     {
+        ShoppingCart GetShoppingCartByClientId(Guid clientId);
+        bool AddProductoToCart(Guid clientId, Guid productId);
+        bool RemoveProductoFromCart(Guid clientId, Guid productId);
     }
 }
 

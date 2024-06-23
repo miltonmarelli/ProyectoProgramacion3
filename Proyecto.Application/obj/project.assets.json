@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\luigi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgIII\\Proyecto.Application\\Proyecto.Application.csproj",
+      "projectUniqueName": "C:\\Users\\luigi\\Source\\Repos\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj",
       "projectName": "Proyecto.Application",
-      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgIII\\Proyecto.Application\\Proyecto.Application.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgIII\\Proyecto.Application\\obj\\",
+      "projectPath": "C:\\Users\\luigi\\Source\\Repos\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj",
+      "packagesPath": "C:\\Users\\luigi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\luigi\\Source\\Repos\\ProyectoProgramacion3\\Proyecto.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\luigi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgIII\\Proyecto.Domain\\Proyecto.Domain.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgIII\\Proyecto.Domain\\Proyecto.Domain.csproj"
+            "C:\\Users\\luigi\\Source\\Repos\\ProyectoProgramacion3\\Proyecto.Domain\\Proyecto.Domain.csproj": {
+              "projectPath": "C:\\Users\\luigi\\Source\\Repos\\ProyectoProgramacion3\\Proyecto.Domain\\Proyecto.Domain.csproj"
             }
           }
         }
@@ -89,7 +89,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

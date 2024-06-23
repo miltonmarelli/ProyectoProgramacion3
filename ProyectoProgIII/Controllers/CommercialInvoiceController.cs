@@ -1,12 +1,31 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Proyecto.Application.IServices;
+using Proyecto.Domain.Models;
 
-namespace ProyectoProgIII.Controllers
+namespace Proyecto.WebApi.Controllers
 {
-    public class CommercialInvoiceController : Controller
+    [ApiController]
+    [Route("api/[controller]")]
+    public class CommercialInvoiceController : ControllerBase
     {
-        public IActionResult Index()
+        private readonly ICommercialInvoiceService _invoiceService;
+
+        public CommercialInvoiceController(ICommercialInvoiceService invoiceService)
         {
-            return View();
+            _invoiceService = invoiceService;
         }
+
+        [HttpGet("{invoiceId}")]
+        public IActionResult GetInvoiceDetails(CommercialInvoice invoiceId)
+        {
+            var invoice = _invoiceService.GetInvoiceDetails(invoiceId);
+            if (invoice == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(invoice);
+        }
+
     }
 }

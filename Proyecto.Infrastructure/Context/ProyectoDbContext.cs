@@ -10,6 +10,8 @@ namespace Proyecto.Infraestructure.Context
 
         public DbSet<Producto> Productos { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<CommercialInvoice> CommercialInvoices { get; set; }
+        public DbSet<ShoppingCart> ShoppingCarts { get; set; }
 
     }
 }

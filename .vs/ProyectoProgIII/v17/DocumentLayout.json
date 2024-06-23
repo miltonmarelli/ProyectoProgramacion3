@@ -1,7 +1,76 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgIII\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyecto.infrastructure\\services\\autenticacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|solutionrelative:proyecto.infrastructure\\services\\autenticacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyecto.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|solutionrelative:proyecto.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyecto.domain\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|solutionrelative:proyecto.domain\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyecto.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|solutionrelative:proyecto.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyecto.infrastructure\\context\\proyectodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|solutionrelative:proyecto.infrastructure\\context\\proyectodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyecto.infrastructure\\repositories\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|solutionrelative:proyecto.infrastructure\\repositories\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyecto.application\\services\\shoppingcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|solutionrelative:proyecto.application\\services\\shoppingcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyecto.application\\iservices\\ishoppingcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|solutionrelative:proyecto.application\\iservices\\ishoppingcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyectoprogiii\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|solutionrelative:proyectoprogiii\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyecto.domain\\models\\commercialinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|solutionrelative:proyecto.domain\\models\\commercialinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyecto.application\\iservices\\icommercialinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|solutionrelative:proyecto.application\\iservices\\icommercialinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyecto.infrastructure\\repositories\\commercialinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|solutionrelative:proyecto.infrastructure\\repositories\\commercialinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyectoprogiii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|solutionrelative:proyectoprogiii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyecto.application\\repositories\\ishoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|solutionrelative:proyecto.application\\repositories\\ishoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyectoprogiii\\controllers\\commercialinvoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|solutionrelative:proyectoprogiii\\controllers\\commercialinvoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyecto.application\\services\\commercialinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|solutionrelative:proyecto.application\\services\\commercialinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|c:\\users\\luigi\\source\\repos\\proyectoprogramacion3\\proyecto.application\\repositories\\icommercialinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|solutionrelative:proyecto.application\\repositories\\icommercialinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +95,227 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutenticacionService.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Services\\AutenticacionService.cs",
+              "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Services\\AutenticacionService.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Services\\AutenticacionService.cs",
+              "RelativeToolTip": "Proyecto.Infrastructure\\Services\\AutenticacionService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAArwDcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T03:13:01.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Proyecto.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Proyecto.Application\\Services\\UserService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAArwDsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T03:12:48.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Proyecto.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T03:11:44.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "Proyecto.Domain\\Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "Proyecto.Domain\\Models\\ShoppingCart.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAuwCYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T02:35:25.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IShoppingCartService.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Application\\IServices\\IShoppingCartService.cs",
+              "RelativeDocumentMoniker": "Proyecto.Application\\IServices\\IShoppingCartService.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Application\\IServices\\IShoppingCartService.cs",
+              "RelativeToolTip": "Proyecto.Application\\IServices\\IShoppingCartService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T02:31:04.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShoppingCartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\ShoppingCartRepository.cs",
+              "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Repositories\\ShoppingCartRepository.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\ShoppingCartRepository.cs",
+              "RelativeToolTip": "Proyecto.Infrastructure\\Repositories\\ShoppingCartRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T02:37:42.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShoppingCartService.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Application\\Services\\ShoppingCartService.cs",
+              "RelativeDocumentMoniker": "Proyecto.Application\\Services\\ShoppingCartService.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Application\\Services\\ShoppingCartService.cs",
+              "RelativeToolTip": "Proyecto.Application\\Services\\ShoppingCartService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T02:33:56.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProyectoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Context\\ProyectoDbContext.cs",
+              "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Context\\ProyectoDbContext.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Context\\ProyectoDbContext.cs",
+              "RelativeToolTip": "Proyecto.Infrastructure\\Context\\ProyectoDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T02:26:48.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "ProyectoProgIII\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "ProyectoProgIII\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T02:01:25.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CommercialInvoice.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\CommercialInvoice.cs",
+              "RelativeDocumentMoniker": "Proyecto.Domain\\Models\\CommercialInvoice.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\CommercialInvoice.cs",
+              "RelativeToolTip": "Proyecto.Domain\\Models\\CommercialInvoice.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T02:35:03.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICommercialInvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Application\\IServices\\ICommercialInvoiceService.cs",
+              "RelativeDocumentMoniker": "Proyecto.Application\\IServices\\ICommercialInvoiceService.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Application\\IServices\\ICommercialInvoiceService.cs",
+              "RelativeToolTip": "Proyecto.Application\\IServices\\ICommercialInvoiceService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T02:30:09.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CommercialInvoiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\CommercialInvoiceRepository.cs",
+              "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Repositories\\CommercialInvoiceRepository.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\CommercialInvoiceRepository.cs",
+              "RelativeToolTip": "Proyecto.Infrastructure\\Repositories\\CommercialInvoiceRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T02:37:33.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\ProyectoProgIII\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoProgIII\\Program.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\ProyectoProgIII\\Program.cs",
+              "RelativeToolTip": "ProyectoProgIII\\Program.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEEAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T02:28:16.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IShoppingCartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Application\\Repositories\\IShoppingCartRepository.cs",
+              "RelativeDocumentMoniker": "Proyecto.Application\\Repositories\\IShoppingCartRepository.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Application\\Repositories\\IShoppingCartRepository.cs",
+              "RelativeToolTip": "Proyecto.Application\\Repositories\\IShoppingCartRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T02:32:20.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CommercialInvoiceController.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\CommercialInvoiceController.cs",
+              "RelativeDocumentMoniker": "ProyectoProgIII\\Controllers\\CommercialInvoiceController.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\CommercialInvoiceController.cs",
+              "RelativeToolTip": "ProyectoProgIII\\Controllers\\CommercialInvoiceController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T02:38:37.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CommercialInvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Application\\Services\\CommercialInvoiceService.cs",
+              "RelativeDocumentMoniker": "Proyecto.Application\\Services\\CommercialInvoiceService.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Application\\Services\\CommercialInvoiceService.cs",
+              "RelativeToolTip": "Proyecto.Application\\Services\\CommercialInvoiceService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T02:33:19.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICommercialInvoiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Application\\Repositories\\ICommercialInvoiceRepository.cs",
+              "RelativeDocumentMoniker": "Proyecto.Application\\Repositories\\ICommercialInvoiceRepository.cs",
+              "ToolTip": "C:\\Users\\luigi\\source\\repos\\ProyectoProgramacion3\\Proyecto.Application\\Repositories\\ICommercialInvoiceRepository.cs",
+              "RelativeToolTip": "Proyecto.Application\\Repositories\\ICommercialInvoiceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T02:32:09.256Z",
+              "EditorCaption": ""
             }
           ]
         },

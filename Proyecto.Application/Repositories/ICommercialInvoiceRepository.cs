@@ -1,13 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Proyecto.Domain.Models;
 
 namespace Proyecto.Application.Repositories
 {
     public interface ICommercialInvoiceRepository
     {
-
+        CommercialInvoice GetInvoiceById(Guid invoiceId);
+        bool CreateInvoice(CommercialInvoice commercialInvoice);
+        bool UpdateInvoice(CommercialInvoice commercialInvoice);
+        bool DeleteInvoice(Guid invoiceId);
     }
 }

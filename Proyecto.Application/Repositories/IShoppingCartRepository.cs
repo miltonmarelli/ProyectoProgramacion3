@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Proyecto.Domain.Models;
 
 namespace Proyecto.Application.Repositories
 {
-    internal interface IShoppingCartRepository
+    public interface IShoppingCartRepository
     {
+        ShoppingCart GetShoppingCartByClientId(Guid clientId);
+        bool UpdateShoppingCart(ShoppingCart shoppingCart);
     }
 }
 

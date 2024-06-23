@@ -59,6 +59,12 @@ builder.Services.AddScoped<IProductoRepository, ProductoRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
+builder.Services.AddScoped<IShoppingCartService, ShoppingCartService>();
+builder.Services.AddScoped<IShoppingCartRepository, ShoppingCartRepository>();
+
+builder.Services.AddScoped<ICommercialInvoiceService, CommercialInvoiceService>();
+builder.Services.AddScoped<ICommercialInvoiceRepository, CommercialInvoiceRepository>();
+
 //config Autenticacion
 builder.Services.AddAuthentication("Bearer") //"Bearer" es el tipo de auntenticación que tenemos que elegir después en PostMan para pasarle el token
     .AddJwtBearer(options => //Acá definimos la configuración de la autenticación. le decimos qué cosas queremos comprobar. La fecha de expiración se valida por defecto.
