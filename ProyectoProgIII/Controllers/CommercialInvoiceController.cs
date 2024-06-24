@@ -15,7 +15,7 @@ namespace Proyecto.WebApi.Controllers
             _invoiceService = invoiceService;
         }
 
-        [HttpGet("{invoiceId}")]
+        [HttpGet("GetInvoiceDetails/{invoiceId}")]
         public IActionResult GetInvoiceDetails(CommercialInvoice invoiceId)
         {
             var invoice = _invoiceService.GetInvoiceDetails(invoiceId);

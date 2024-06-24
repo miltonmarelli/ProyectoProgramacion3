@@ -15,7 +15,7 @@ namespace Proyecto.Infraestructure.Repositories
             _context = context;
         }
 
-        public ShoppingCart GetShoppingCartByClientId(Guid clientId)
+        public ShoppingCart GetShoppingCartByClientId(int clientId)
         {
             var shoppingCart = _context.ShoppingCarts.FirstOrDefault(sc => sc.ClientId == clientId);
             return shoppingCart ?? new ShoppingCart();

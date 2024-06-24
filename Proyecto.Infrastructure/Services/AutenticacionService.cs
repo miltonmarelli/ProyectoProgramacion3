@@ -38,7 +38,6 @@ namespace Proyecto.Infraestructure.Services
                     user = new Admin
                     {
                         Name = user.Name,
-                        Role = user.Role,
                         Password = user.Password 
                     };
                     break;
@@ -47,7 +46,6 @@ namespace Proyecto.Infraestructure.Services
                     user = new Dev
                     {
                         Name = user.Name,
-                        Role = user.Role,
                         Password = user.Password
                     };
                     break;
@@ -56,7 +54,6 @@ namespace Proyecto.Infraestructure.Services
                     user = new Client
                     {
                         Name = user.Name,
-                        Role = user.Role,
                         Password = user.Password
                     };
                     break;

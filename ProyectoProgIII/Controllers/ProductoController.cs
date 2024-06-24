@@ -17,14 +17,14 @@ namespace ProyectoProgIII.Controllers
             _productoService = productoService;
         }
 
-        [HttpGet]
+        [HttpGet("GetProductList")]
         public ActionResult<IEnumerable<Producto?>> GetProductList()
         {
             var productList = _productoService.GetProductList();
             return Ok(productList);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("GetProductById/{id}")]
         public ActionResult<Producto?> GetById(Guid id)
         {
             var product = _productoService.GetById(id);
@@ -35,7 +35,7 @@ namespace ProyectoProgIII.Controllers
             return Ok(product);
         }
 
-        [HttpPost]
+        [HttpPost("CreateProduct")]
         public ActionResult CreateProduct(Producto producto)
         {
             var success = _productoService.CreateProduct(producto);
@@ -46,7 +46,7 @@ namespace ProyectoProgIII.Controllers
             return CreatedAtAction(nameof(GetById), new { id = producto.Id }, producto);
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("UpdateProduct/{id}")]
         public ActionResult UpdateProduct(Guid id, Producto producto)
         {
             if (id != producto.Id)
@@ -61,7 +61,7 @@ namespace ProyectoProgIII.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("DeleteProduct/{id}")]
         public ActionResult DeleteProduct(Guid id)
         {
             var success = _productoService.DeleteProduct(id);
@@ -72,7 +72,7 @@ namespace ProyectoProgIII.Controllers
             return NoContent();
         }
 
-        [HttpPost("apply-discount/{id}")]
+        [HttpPost("ApplyDiscount/{id}")]
         public ActionResult ApplyDiscount(Guid id, double percentage)
         {
             var success = _productoService.ApplyDiscount(id, percentage);

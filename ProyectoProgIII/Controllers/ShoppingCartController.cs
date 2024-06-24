@@ -16,8 +16,8 @@ namespace ProyectoProgIII.Controllers
             _shoppingCartService = shoppingCartService;
         }
 
-        [HttpGet("{clientId}")]
-        public ActionResult<ShoppingCart> GetShoppingCart(Guid clientId)
+        [HttpGet("GetShoppingCart/{clientId}")]
+        public ActionResult<ShoppingCart> GetShoppingCart(int clientId)
         {
             var shoppingCart = _shoppingCartService.GetShoppingCartByClientId(clientId);
             if (shoppingCart == null)
@@ -27,26 +27,26 @@ namespace ProyectoProgIII.Controllers
             return Ok(shoppingCart);
         }
 
-        [HttpPost("{clientId}/add-product/{productId}")]
-        public ActionResult AddProductToCart(Guid clientId, Guid productId)
+        [HttpPost("AddProductToCart/{clientId}/{productId}")]
+        public ActionResult AddProductToCart(int clientId, Guid productId)
         {
             var success = _shoppingCartService.AddProductoToCart(clientId, productId);
             if (!success)
             {
-                return NotFound();
+                return NotFound("Product or shopping cart not found");
             }
-            return Ok("Product added to cart successfully.");
+            return Ok("Product added to cart successfully");
         }
 
-        [HttpPost("{clientId}/remove-product/{productId}")]
-        public ActionResult RemoveProductFromCart(Guid clientId, Guid productId)
+        [HttpPost("RemoveProductFromCart/{clientId}/{productId}")]
+        public ActionResult RemoveProductFromCart(int clientId, Guid productId)
         {
             var success = _shoppingCartService.RemoveProductoFromCart(clientId, productId);
             if (!success)
             {
-                return NotFound();
+                return NotFound("Product or shopping cart not found");
             }
-            return Ok("Product removed from cart successfully.");
+            return Ok("Product removed from cart successfully");
         }
     }
 }

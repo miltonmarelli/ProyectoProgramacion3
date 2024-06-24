@@ -19,7 +19,6 @@ namespace Proyecto.Infraestructure.Repositories
         public CommercialInvoice GetInvoiceById(Guid invoiceId)
         {
             return _dbContext.CommercialInvoices
-                .Include(ci => ci.Client)
                 .Include(ci => ci.ShoppingCart)
                 .ThenInclude(sc => sc.Productos)
                 .FirstOrDefault(ci => ci.IdOrden == invoiceId);

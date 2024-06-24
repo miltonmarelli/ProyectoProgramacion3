@@ -13,8 +13,10 @@ namespace Proyecto.Domain.Models
         public Guid IdShoppingCart { get; set; }
         public double Impuesto { get; set; } = 0.21; // 21% por defecto
 
-        public Guid ClientId { get; set; }
-        public Client Client { get; set; }
+        public int ClientId { get; set; }
+        public string ClientName { get; set; }
+
+        public string ClientEmail { get; set; }
 
         public List<Producto> Productos { get; set; }
 

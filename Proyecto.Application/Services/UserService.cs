@@ -22,6 +22,25 @@ namespace Proyecto.Application.Services
             return users.Select(u => new UserDto { Name = u.Name, Email = u.Email, Role = u.Role }).ToList();
         }
 
+        public ICollection<UserDto> GetAllClients()
+        {
+            var clients = _userRepository.GetAllClients();
+            return clients.Select(c => new UserDto { Name = c.Name, Email = c.Email, Role = c.Role }).ToList();
+        }
+
+        public ICollection<UserDto> GetAllAdmins()
+        {
+            var admins = _userRepository.GetAllAdmins();
+            return admins.Select(a => new UserDto { Name = a.Name, Email = a.Email, Role = a.Role }).ToList();
+        }
+
+        public ICollection<UserDto> GetAllDevs()
+        {
+            var devs = _userRepository.GetAllDevs();
+            return devs.Select(d => new UserDto { Name = d.Name, Email = d.Email, Role = d.Role }).ToList();
+        }
+
+
         public User GetByName(string name)
         {
             var user = _userRepository.GetByName(name);
@@ -38,7 +57,6 @@ namespace Proyecto.Application.Services
                         Name = user.Name,
                         Email = user.Email,
                         Password = user.Password,
-                        Role = "admin",
                         Activo = true
                     };
                     _userRepository.AddUser(newAdmin);
@@ -50,7 +68,6 @@ namespace Proyecto.Application.Services
                         Name = user.Name,
                         Email = user.Email,
                         Password = user.Password,
-                        Role = "dev",
                         Activo = true
                     };
                     _userRepository.AddUser(newDev);
@@ -62,7 +79,6 @@ namespace Proyecto.Application.Services
                         Name = user.Name,
                         Email = user.Email,
                         Password = user.Password,
-                        Role = "client",
                         Activo = true
                     };
                     _userRepository.AddUser(newCliente);
@@ -110,7 +126,6 @@ namespace Proyecto.Application.Services
 
             NotNullUser.Name = user.Name;
             NotNullUser.Email = user.Email;
-            NotNullUser.Role = user.Role;
 
             _userRepository.UpdateUser(NotNullUser);
             return new UserDto { Name = NotNullUser.Name, Email = NotNullUser.Email, Role = NotNullUser.Role };

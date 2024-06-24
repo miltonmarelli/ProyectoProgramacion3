@@ -5,7 +5,7 @@ namespace Proyecto.Application.Repositories
 {
     public interface IShoppingCartRepository
     {
-        ShoppingCart GetShoppingCartByClientId(Guid clientId);
+        ShoppingCart GetShoppingCartByClientId(int clientId);
         bool UpdateShoppingCart(ShoppingCart shoppingCart);
     }
 }

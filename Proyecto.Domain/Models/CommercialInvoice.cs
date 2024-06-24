@@ -6,17 +6,16 @@ namespace Proyecto.Domain.Models
     public class CommercialInvoice
     {
         public Guid IdOrden { get; set; }
-        public Client Client { get; set; }
+        public string ClientName { get; set; }
         public ShoppingCart ShoppingCart { get; set; }
         public double Total => CalculateTotal();
         public string Estado { get; set; }
 
-        public Guid ClientId { get; set; }
+        public int ClientId { get; set; }
         public CommercialInvoice()
         {
             IdOrden = Guid.NewGuid();
             ShoppingCart = new ShoppingCart();
-            Client = new Client();
             Estado = "pendiente";
         }
 

@@ -7,6 +7,9 @@ namespace Proyecto.Application.IServices
     public interface IUserService
     {
             ICollection<UserDto> GetAll();
+            ICollection<UserDto> GetAllClients();
+            ICollection<UserDto> GetAllAdmins();
+            ICollection<UserDto> GetAllDevs();
             User GetByName(string name);
             UserDto Create(UserSaveRequest user);
             void DeleteUser(int id);

@@ -18,14 +18,21 @@ namespace Proyecto.Web.Controllers
             _userService = userService;
         }
 
-        [HttpGet]
+        [HttpGet("GetAllClient")]
         public IActionResult GetAll()
         {
-            var users = _userService.GetAll();
-            return Ok(users);
+            try
+            {
+                var users = _userService.GetAll();
+                return Ok(users);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
 
-        [HttpGet("GetByName")]
+        [HttpGet("GetClientByName")]
         public IActionResult GetByName(string name)
         {
             var user = _userService.GetByName(name);
@@ -37,7 +44,7 @@ namespace Proyecto.Web.Controllers
         }
 
 
-        [HttpGet("{id}")]
+        [HttpGet("GetClientById/{id}")]
         public IActionResult GetById(int id)
         {
             try
@@ -52,7 +59,7 @@ namespace Proyecto.Web.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPost("CreateClient")]
         public IActionResult Create(UserSaveRequest user)
         {
             try
@@ -67,7 +74,7 @@ namespace Proyecto.Web.Controllers
         }
 
 
-        [HttpPut("{id}")]
+        [HttpPut("UpdateClient/{id}")]
         public IActionResult UpdateUser(int id, UserSaveRequest user)
         {
             try
@@ -82,7 +89,7 @@ namespace Proyecto.Web.Controllers
         }
 
 
-        [HttpDelete("{id}")]
+        [HttpDelete("DeleteClient/{id}")]
         public IActionResult DeleteUser(int id)
         {
             try

@@ -9,7 +9,7 @@ using Proyecto.Infraestructure.Context;
 namespace Proyecto.Infraestructure.Repositories
     {
         public class UserRepository : IUserRepository
-    {
+        {
             private readonly ProyectoDbContext _context;
 
             public UserRepository(ProyectoDbContext context)
@@ -22,43 +22,30 @@ namespace Proyecto.Infraestructure.Repositories
                 return _context.Users.ToList();
             }
 
-        public User GetByName(string name)
-        {
+            public ICollection<Client> GetAllClients()
+            {
+            return _context.Users.OfType<Client>().ToList();
+            }
+
+            public ICollection<Admin> GetAllAdmins()
+            {
+            return _context.Users.OfType<Admin>().ToList();
+            }
+
+            public ICollection<Dev> GetAllDevs()
+            {
+                return _context.Users.OfType<Dev>().ToList();
+            }
+
+            public User GetByName(string name)
+            {
             var userEntity = _context.Users.FirstOrDefault(u => u.Name == name);
             if (userEntity == null)
             {
                 throw new ArgumentException("El usuario no existe");
             }
 
-            switch (userEntity.Role.ToLower())
-            {
-                case "admin":
-                    return new Admin
-                    {
-                        Name = userEntity.Name,
-                        Email = userEntity.Email,
-                        Role = userEntity.Role
-                    };
-
-                case "client":
-                    return new Client
-                    {
-                        Name = userEntity.Name,
-                        Email = userEntity.Email,
-                        Role = userEntity.Role
-                    };
-
-                case "dev":
-                    return new Dev
-                    {
-                        Name = userEntity.Name,
-                        Email = userEntity.Email,
-                        Role = userEntity.Role
-                    };
-
-                default:
-                    throw new InvalidOperationException("Rol de usuario no valido");
-            }
+            return userEntity;
         }
 
         public void AddUser(User user)
