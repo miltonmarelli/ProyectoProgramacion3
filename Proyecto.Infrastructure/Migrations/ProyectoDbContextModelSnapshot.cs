@@ -63,6 +63,10 @@ namespace Proyecto.Infraestructure.Migrations
                     b.Property<double>("Descuento")
                         .HasColumnType("REAL");
 
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Marca")
                         .IsRequired()
                         .HasMaxLength(50)

@@ -16,6 +16,7 @@ namespace Proyecto.Domain.Models
         public int? Stock { get; set; }
         public bool Activo { get; set; }
 
+        public string Image { get; set; }
         public List<ShoppingCart> ShoppingCarts { get; set; }  
 
         public Producto()

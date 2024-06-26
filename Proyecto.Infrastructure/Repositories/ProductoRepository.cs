@@ -45,6 +45,7 @@ namespace Proyecto.Infraestructure.Repositories
             prod.PrecioUnitario = producto.PrecioUnitario;
             prod.Marca = producto.Marca;
             prod.Descuento = producto.Descuento;
+            prod.Image = producto.Image;
 
             _context.SaveChanges();
             return true;
