@@ -19,25 +19,25 @@ namespace Proyecto.Application.Services
         {
 
             var users = _userRepository.GetAllUsers();
-            return users.Select(u => new UserDto { Name = u.Name, Email = u.Email, Role = u.Role }).ToList();
+            return users.Select(u => new UserDto { Id = u.Id, Name = u.Name, Email = u.Email, Role = u.Role }).ToList();
         }
 
         public ICollection<UserDto> GetAllClients()
         {
             var clients = _userRepository.GetAllClients();
-            return clients.Select(c => new UserDto { Name = c.Name, Email = c.Email, Role = c.Role }).ToList();
+            return clients.Select(c => new UserDto { Id = c.Id, Name = c.Name, Email = c.Email, Role = c.Role }).ToList();
         }
 
         public ICollection<UserDto> GetAllAdmins()
         {
             var admins = _userRepository.GetAllAdmins();
-            return admins.Select(a => new UserDto { Name = a.Name, Email = a.Email, Role = a.Role }).ToList();
+            return admins.Select(a => new UserDto { Id = a.Id, Name = a.Name, Email = a.Email, Role = a.Role }).ToList();
         }
 
         public ICollection<UserDto> GetAllDevs()
         {
             var devs = _userRepository.GetAllDevs();
-            return devs.Select(d => new UserDto { Name = d.Name, Email = d.Email, Role = d.Role }).ToList();
+            return devs.Select(d => new UserDto {Id = d.Id, Name = d.Name, Email = d.Email, Role = d.Role }).ToList();
         }
 
 
