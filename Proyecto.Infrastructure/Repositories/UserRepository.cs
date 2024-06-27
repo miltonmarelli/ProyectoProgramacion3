@@ -59,7 +59,7 @@ namespace Proyecto.Infraestructure.Repositories
                 var userToDelete = _context.Users.Find(id);
                 if (userToDelete != null)
                 {
-                    _context.Users.Remove(userToDelete);
+                    userToDelete.Activo = false;
                     _context.SaveChanges();
                 }
                 else
@@ -87,7 +87,12 @@ namespace Proyecto.Infraestructure.Repositories
 
         public User GetUserById(int id)
         {
-            throw new NotImplementedException();
+            var user = _context.Users.Find(id);
+            if (user == null)
+            {
+                throw new ArgumentException("El usuario no existe");
+            }
+            return user;
         }
     }
     }
