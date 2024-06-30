@@ -46,9 +46,9 @@ namespace Proyecto.Infraestructure.Repositories
             }
 
             return userEntity;
-        }
+            }
 
-        public void AddUser(User user)
+            public void AddUser(User user)
             {
                 _context.Users.Add(user);
                 _context.SaveChanges();
@@ -68,8 +68,8 @@ namespace Proyecto.Infraestructure.Repositories
                 }
             }
 
-        public User GetById(int id)
-        {
+            public User GetById(int id)
+            {
             var user = _context.Users.Find(id);
             if (user == null)
             {
@@ -77,23 +77,23 @@ namespace Proyecto.Infraestructure.Repositories
             }
 
             return user;
-        }
+            }
 
-        public void UpdateUser(User user)
+            public void UpdateUser(User user)
             {
                 _context.Users.Update(user);
                 _context.SaveChanges();
             }
 
-        public User GetUserById(int id)
-        {
+            public User GetUserById(int id)
+            {
             var user = _context.Users.Find(id);
             if (user == null)
             {
                 throw new ArgumentException("El usuario no existe");
             }
             return user;
+            }
         }
-    }
-    }
+}
 

@@ -19,12 +19,12 @@ namespace Proyecto.Web.Controllers
         }
 
         [HttpGet("GetAllClient")]
-        public IActionResult GetAll()
+        public IActionResult GetAllClient()
         {
             try
             {
-                var users = _userService.GetAll();
-                return Ok(users);
+                var clients = _userService.GetAllClients();
+                return Ok(clients);
             }
             catch (Exception ex)
             {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/rTq2sq6uk/CrU4uiv6V3EPk8emo3GY0DkdRvl+EybzT6oZ/1CuSRKr8j6d1+/EBYeA/KNRFPazwBEsdYNesDA==",
+  "dgSpecHash": "nWIzjFIwaTmjig8b5jfI4VJKr/R8wGquyeIFbPW8De0BzswsgcF0DiJpZzLz4iJvBOOEbk0ap1Lp9jzCXCaxvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\entityframework\\6.5.1\\entityframework.6.5.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

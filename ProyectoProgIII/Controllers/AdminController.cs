@@ -18,13 +18,14 @@ namespace Proyecto.Web.Controllers
             _userService = userService;
         }
 
+
         [HttpGet("GetAllAdmin")]
-        public IActionResult GetAll()
+        public IActionResult GetAllAdmins()
         {
             try
             {
-                var users = _userService.GetAll();
-                return Ok(users);
+                var admins = _userService.GetAllAdmins();
+                return Ok(admins);
             }
             catch (Exception ex)
             {

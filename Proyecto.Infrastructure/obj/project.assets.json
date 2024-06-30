@@ -3933,11 +3933,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj",
       "projectName": "Proyecto.Infraestructure",
-      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj",
+      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3954,8 +3954,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj"
+            "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj"
             }
           }
         }

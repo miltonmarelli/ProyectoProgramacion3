@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\ProyectoProgIII\\ProyectoProgIII.csproj": {}
+    "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\ProyectoProgIII.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj",
         "projectName": "Proyecto.Application",
-        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Application\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Domain\\Proyecto.Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Domain\\Proyecto.Domain.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Proyecto.Domain.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Proyecto.Domain.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Domain\\Proyecto.Domain.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Proyecto.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Domain\\Proyecto.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Proyecto.Domain.csproj",
         "projectName": "Proyecto.Domain",
-        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Domain\\Proyecto.Domain.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Proyecto.Domain.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -128,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj",
         "projectName": "Proyecto.Infraestructure",
-        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,8 +152,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj"
               }
             }
           }
@@ -230,14 +230,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\ProyectoProgIII\\ProyectoProgIII.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\ProyectoProgIII.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\ProyectoProgIII\\ProyectoProgIII.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\ProyectoProgIII.csproj",
         "projectName": "ProyectoProgIII",
-        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\ProyectoProgIII\\ProyectoProgIII.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\ProyectoProgIII.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\ProyectoProgIII\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -254,14 +254,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\Proyecto.Application.csproj"
               },
-              "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Domain\\Proyecto.Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Domain\\Proyecto.Domain.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Proyecto.Domain.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Proyecto.Domain.csproj"
               },
-              "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\ProyectoProgramacionIII\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj"
+              "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj"
               }
             }
           }
