@@ -19,15 +19,19 @@ namespace Proyecto.Application.Services
             _userRepository = userRepository;
         }
 
-        public ShoppingCartDto GetShoppingCartByClientId(int clientId)
+        public ShoppingCartDto GetShoppingCartByClientName(string clientName)
         {
-            var shoppingCart = _shoppingCartRepository.GetShoppingCartByClientId(clientId);
-            if (shoppingCart == null)
+            var client = _userRepository.GetByName(clientName);
+            if (client == null)
             {
-                throw new InvalidOperationException($"Shopping cart for client with ID {clientId} not found.");
+                throw new InvalidOperationException($"Shopping cart for client with ID {clientName} not found");
             }
 
-            var client = _userRepository.GetByName(shoppingCart.ClientName);
+            var shoppingCart = _shoppingCartRepository.GetShoppingCartByClientId(client.Id);
+            if (shoppingCart == null)
+            {
+                throw new InvalidOperationException($"Shopping cart for client with name {clientName} not found.");
+            }
 
             return new ShoppingCartDto
             {
@@ -44,14 +48,20 @@ namespace Proyecto.Application.Services
             };
         }
 
-        public bool AddProductoToCart(int clientId, Guid productId)
+        public bool AddProductoToCart(string clientName, Guid productId)
         {
-            var shoppingCart = _shoppingCartRepository.GetShoppingCartByClientId(clientId);
+            var client = _userRepository.GetByName(clientName);
+            if (client == null)
+            {
+                return false;
+            }
+
+            var shoppingCart = _shoppingCartRepository.GetShoppingCartByClientId(client.Id);
             var product = _productoRepository.GetById(productId);
 
             if (shoppingCart == null || product == null)
             {
-                throw new InvalidOperationException($"Shopping cart for client with ID {clientId} not found.");
+                return false;
             }
 
             shoppingCart.Productos.Add(product);
@@ -59,9 +69,15 @@ namespace Proyecto.Application.Services
             return true;
         }
 
-        public bool RemoveProductoFromCart(int clientId, Guid productId)
+        public bool RemoveProductoFromCart(string clientName, Guid productId)
         {
-            var shoppingCart = _shoppingCartRepository.GetShoppingCartByClientId(clientId);
+            var client = _userRepository.GetByName(clientName);
+            if (client == null)
+            {
+                return false;
+            }
+
+            var shoppingCart = _shoppingCartRepository.GetShoppingCartByClientId(client.Id);
             var product = _productoRepository.GetById(productId);
 
             if (shoppingCart == null || product == null)

@@ -3,32 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyectoprogiii\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|solutionrelative:proyectoprogiii\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyectoprogiii\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|solutionrelative:proyectoprogiii\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyectoprogiii\\controllers\\devcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|solutionrelative:proyectoprogiii\\controllers\\devcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyectoprogiii\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|solutionrelative:proyectoprogiii\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.application\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|solutionrelative:proyecto.application\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.domain\\models\\commercialinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|solutionrelative:proyecto.domain\\models\\commercialinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|solutionrelative:proyecto.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.application\\services\\shoppingcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|solutionrelative:proyecto.application\\services\\shoppingcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.application\\iservices\\ishoppingcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|solutionrelative:proyecto.application\\iservices\\ishoppingcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyectoprogiii\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|solutionrelative:proyectoprogiii\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.application\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|solutionrelative:proyecto.application\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.domain\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|solutionrelative:proyecto.domain\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|solutionrelative:proyecto.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.infrastructure\\repositories\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|solutionrelative:proyecto.infrastructure\\repositories\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.infrastructure\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|solutionrelative:proyecto.infrastructure\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.application\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|solutionrelative:proyecto.application\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyectoprogiii\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|solutionrelative:proyectoprogiii\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyectoprogiii\\controllers\\devcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|solutionrelative:proyectoprogiii\\controllers\\devcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.infrastructure\\services\\autenticacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|solutionrelative:proyecto.infrastructure\\services\\autenticacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyectoprogiii\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|solutionrelative:proyectoprogiii\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyectoprogiii\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|solutionrelative:proyectoprogiii\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.infrastructure\\migrations\\20240627030553_updateuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,16 +79,8 @@
       "RelativeMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|solutionrelative:proyecto.infrastructure\\context\\proyectodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|solutionrelative:proyecto.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.infrastructure\\migrations\\20240626190328_addimagetoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|solutionrelative:proyecto.infrastructure\\migrations\\20240626190328_addimagetoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.infrastructure\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|solutionrelative:proyecto.infrastructure\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.domain\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,24 +99,8 @@
       "RelativeMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|solutionrelative:proyectoprogiii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyectoprogiii\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|solutionrelative:proyectoprogiii\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyectoprogiii\\controllers\\commercialinvoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{341A7478-E1A1-4006-9AC3-C510853E285F}|ProyectoProgIII\\ProyectoProgIII.csproj|solutionrelative:proyectoprogiii\\controllers\\commercialinvoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.domain\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|solutionrelative:proyecto.domain\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.infrastructure\\repositories\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB214A07-CA66-45D9-B154-CBD79A4BB12B}|Proyecto.Infrastructure\\Proyecto.Infraestructure.csproj|solutionrelative:proyecto.infrastructure\\repositories\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.domain\\models\\commercialinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0397A5A3-547D-49A3-9ED2-561BDC866DD1}|Proyecto.Domain\\Proyecto.Domain.csproj|solutionrelative:proyecto.domain\\models\\commercialinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B02A2D6F-4DED-43A2-A96B-DDA5E3B14068}|Proyecto.Application\\Proyecto.Application.csproj|c:\\users\\usuario\\onedrive\\desktop\\proyecto programacion iii - repo\\proyectoprogramacion3\\proyecto.application\\iservices\\icommercialinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,25 +126,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "ProyectoProgIII\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\AdminController.cs",
               "RelativeToolTip": "ProyectoProgIII\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwAoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T00:52:35.252Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 15,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ProyectoProgIII\\Controllers\\UserController.cs",
@@ -141,8 +152,20 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-30T18:55:12.824Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "ProyectoProgIII\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "ProyectoProgIII\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBMAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T02:01:25.854Z",
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -162,33 +185,177 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\IServices\\IUserService.cs",
-              "RelativeDocumentMoniker": "Proyecto.Application\\IServices\\IUserService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\IServices\\IUserService.cs",
-              "RelativeToolTip": "Proyecto.Application\\IServices\\IUserService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T14:04:19.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Proyecto.Application\\Repositories\\IUserRepository.cs",
               "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\Repositories\\IUserRepository.cs",
               "RelativeToolTip": "Proyecto.Application\\Repositories\\IUserRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:48:03.751Z",
+              "WhenOpened": "2024-06-23T13:48:03.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Proyecto.Domain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\User.cs",
+              "RelativeToolTip": "Proyecto.Domain\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T14:19:20.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "Proyecto.Domain\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\Client.cs",
+              "RelativeToolTip": "Proyecto.Domain\\Models\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T04:27:47.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Proyecto.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwCIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T02:55:08.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommercialInvoice.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\CommercialInvoice.cs",
+              "RelativeDocumentMoniker": "Proyecto.Domain\\Models\\CommercialInvoice.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\CommercialInvoice.cs",
+              "RelativeToolTip": "Proyecto.Domain\\Models\\CommercialInvoice.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T22:47:43.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IShoppingCartService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\IServices\\IShoppingCartService.cs",
+              "RelativeDocumentMoniker": "Proyecto.Application\\IServices\\IShoppingCartService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\IServices\\IShoppingCartService.cs",
+              "RelativeToolTip": "Proyecto.Application\\IServices\\IShoppingCartService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T23:27:30.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShoppingCartService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\Services\\ShoppingCartService.cs",
+              "RelativeDocumentMoniker": "Proyecto.Application\\Services\\ShoppingCartService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\Services\\ShoppingCartService.cs",
+              "RelativeToolTip": "Proyecto.Application\\Services\\ShoppingCartService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T23:28:37.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShoppingCartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\ShoppingCartRepository.cs",
+              "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Repositories\\ShoppingCartRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\ShoppingCartRepository.cs",
+              "RelativeToolTip": "Proyecto.Infrastructure\\Repositories\\ShoppingCartRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T21:42:54.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Repositories\\ProductoRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\ProductoRepository.cs",
+              "RelativeToolTip": "Proyecto.Infrastructure\\Repositories\\ProductoRepository.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAswFIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T19:00:25.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\IServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "Proyecto.Application\\IServices\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\IServices\\IUserService.cs",
+              "RelativeToolTip": "Proyecto.Application\\IServices\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T14:04:19.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "ProyectoProgIII\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "ProyectoProgIII\\Controllers\\ClientController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T00:54:43.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DevController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\DevController.cs",
+              "RelativeDocumentMoniker": "ProyectoProgIII\\Controllers\\DevController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\DevController.cs",
+              "RelativeToolTip": "ProyectoProgIII\\Controllers\\DevController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T00:57:02.129Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "AutenticacionService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Services\\AutenticacionService.cs",
+              "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Services\\AutenticacionService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Services\\AutenticacionService.cs",
+              "RelativeToolTip": "Proyecto.Infrastructure\\Services\\AutenticacionService.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAYwFcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T21:50:18.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240627030553_UpdateUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Migrations\\20240627030553_UpdateUserRepository.cs",
+              "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Migrations\\20240627030553_UpdateUserRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Migrations\\20240627030553_UpdateUserRepository.cs",
+              "RelativeToolTip": "Proyecto.Infrastructure\\Migrations\\20240627030553_UpdateUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T03:05:53.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "Proyecto.Domain\\Models\\Producto.cs",
@@ -200,71 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DevController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\DevController.cs",
-              "RelativeDocumentMoniker": "ProyectoProgIII\\Controllers\\DevController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\DevController.cs",
-              "RelativeToolTip": "ProyectoProgIII\\Controllers\\DevController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T00:57:02.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClientController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\ClientController.cs",
-              "RelativeDocumentMoniker": "ProyectoProgIII\\Controllers\\ClientController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\ClientController.cs",
-              "RelativeToolTip": "ProyectoProgIII\\Controllers\\ClientController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T00:54:43.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Proyecto.Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T02:55:08.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20240627030553_UpdateUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Migrations\\20240627030553_UpdateUserRepository.cs",
-              "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Migrations\\20240627030553_UpdateUserRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Migrations\\20240627030553_UpdateUserRepository.cs",
-              "RelativeToolTip": "Proyecto.Infrastructure\\Migrations\\20240627030553_UpdateUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T03:05:53.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\Client.cs",
-              "RelativeDocumentMoniker": "Proyecto.Domain\\Models\\Client.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\Client.cs",
-              "RelativeToolTip": "Proyecto.Domain\\Models\\Client.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T04:27:47.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Program.cs",
               "RelativeDocumentMoniker": "ProyectoProgIII\\Program.cs",
@@ -276,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "ProyectoDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Context\\ProyectoDbContext.cs",
               "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Context\\ProyectoDbContext.cs",
@@ -288,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\Models\\Dtos\\UserDto.cs",
               "RelativeDocumentMoniker": "Proyecto.Application\\Models\\Dtos\\UserDto.cs",
@@ -300,19 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Proyecto.Domain\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\User.cs",
-              "RelativeToolTip": "Proyecto.Domain\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T14:19:20.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "20240626190328_AddImageToProducto.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Migrations\\20240626190328_AddImageToProducto.cs",
               "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Migrations\\20240626190328_AddImageToProducto.cs",
@@ -324,19 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\ProductoRepository.cs",
-              "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Repositories\\ProductoRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\ProductoRepository.cs",
-              "RelativeToolTip": "Proyecto.Infrastructure\\Repositories\\ProductoRepository.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwDAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T19:00:25.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "ProyectoProgIII\\Controllers\\ProductoController.cs",
@@ -348,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "ShoppingCart.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\ShoppingCart.cs",
               "RelativeDocumentMoniker": "Proyecto.Domain\\Models\\ShoppingCart.cs",
@@ -360,19 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ShoppingCartController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\ShoppingCartController.cs",
-              "RelativeDocumentMoniker": "ProyectoProgIII\\Controllers\\ShoppingCartController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\ShoppingCartController.cs",
-              "RelativeToolTip": "ProyectoProgIII\\Controllers\\ShoppingCartController.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAmwB0AAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T02:01:25.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "CommercialInvoiceController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\ProyectoProgIII\\Controllers\\CommercialInvoiceController.cs",
               "RelativeDocumentMoniker": "ProyectoProgIII\\Controllers\\CommercialInvoiceController.cs",
@@ -384,31 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ShoppingCartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\ShoppingCartRepository.cs",
-              "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Repositories\\ShoppingCartRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Repositories\\ShoppingCartRepository.cs",
-              "RelativeToolTip": "Proyecto.Infrastructure\\Repositories\\ShoppingCartRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T21:42:54.545Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CommercialInvoice.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\CommercialInvoice.cs",
-              "RelativeDocumentMoniker": "Proyecto.Domain\\Models\\CommercialInvoice.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Domain\\Models\\CommercialInvoice.cs",
-              "RelativeToolTip": "Proyecto.Domain\\Models\\CommercialInvoice.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T22:47:43.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "ICommercialInvoiceService.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\IServices\\ICommercialInvoiceService.cs",
               "RelativeDocumentMoniker": "Proyecto.Application\\IServices\\ICommercialInvoiceService.cs",
@@ -420,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "20240623052026_UpdateRelationships.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Migrations\\20240623052026_UpdateRelationships.cs",
               "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Migrations\\20240623052026_UpdateRelationships.cs",
@@ -432,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "ICommercialInvoiceRepository.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Application\\Repositories\\ICommercialInvoiceRepository.cs",
               "RelativeDocumentMoniker": "Proyecto.Application\\Repositories\\ICommercialInvoiceRepository.cs",
@@ -444,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "20240623045420_AddRelationships.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Desktop\\Proyecto Programacion III - Repo\\ProyectoProgramacion3\\Proyecto.Infrastructure\\Migrations\\20240623045420_AddRelationships.cs",
               "RelativeDocumentMoniker": "Proyecto.Infrastructure\\Migrations\\20240623045420_AddRelationships.cs",

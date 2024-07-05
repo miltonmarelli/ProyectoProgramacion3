@@ -10,9 +10,9 @@ namespace Proyecto.Application.IServices
 {
     public interface IShoppingCartService
     {
-        ShoppingCartDto GetShoppingCartByClientId(int clientId);
-        bool AddProductoToCart(int clientId, Guid productId);
-        bool RemoveProductoFromCart(int clientId, Guid productId);
+        ShoppingCartDto GetShoppingCartByClientName(string clientName);
+        bool AddProductoToCart(string clientName, Guid productId);
+        bool RemoveProductoFromCart(string clientName, Guid productId);
     }
 }
 

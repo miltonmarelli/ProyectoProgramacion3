@@ -16,10 +16,10 @@ namespace ProyectoProgIII.Controllers
             _shoppingCartService = shoppingCartService;
         }
 
-        [HttpGet("GetShoppingCart/{clientId}")]
-        public ActionResult<ShoppingCart> GetShoppingCart(int clientId)
+        [HttpGet("GetShoppingCart/{clientName}")]
+        public ActionResult<ShoppingCart> GetShoppingCart(string clientName)
         {
-            var shoppingCart = _shoppingCartService.GetShoppingCartByClientId(clientId);
+            var shoppingCart = _shoppingCartService.GetShoppingCartByClientName(clientName); ;
             if (shoppingCart == null)
             {
                 return NotFound();
@@ -27,10 +27,10 @@ namespace ProyectoProgIII.Controllers
             return Ok(shoppingCart);
         }
 
-        [HttpPost("AddProductToCart/{clientId}/{productId}")]
-        public ActionResult AddProductToCart(int clientId, Guid productId)
+        [HttpPost("AddProductToCart/{clientName}/{productId}")]
+        public ActionResult AddProductToCart(string clientName, Guid productId)
         {
-            var success = _shoppingCartService.AddProductoToCart(clientId, productId);
+            var success = _shoppingCartService.AddProductoToCart(clientName, productId);
             if (!success)
             {
                 return NotFound("Product or shopping cart not found");
@@ -38,10 +38,10 @@ namespace ProyectoProgIII.Controllers
             return Ok("Product added to cart successfully");
         }
 
-        [HttpPost("RemoveProductFromCart/{clientId}/{productId}")]
-        public ActionResult RemoveProductFromCart(int clientId, Guid productId)
+        [HttpPost("RemoveProductFromCart/{clientName}/{productId}")]
+        public ActionResult RemoveProductFromCart(string clientName, Guid productId)
         {
-            var success = _shoppingCartService.RemoveProductoFromCart(clientId, productId);
+            var success = _shoppingCartService.RemoveProductoFromCart(clientName, productId);
             if (!success)
             {
                 return NotFound("Product or shopping cart not found");

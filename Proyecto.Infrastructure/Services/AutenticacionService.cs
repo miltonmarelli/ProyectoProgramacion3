@@ -7,6 +7,7 @@ using Proyecto.Application.Repositories;
 using Proyecto.Domain.Models;
 using Proyecto.Application.Models.Request;
 using Proyecto.Application.IServices;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace Proyecto.Infraestructure.Services
 {
@@ -73,7 +74,7 @@ namespace Proyecto.Infraestructure.Services
             var user = ValidateUser(authenticationRequest);
             if (user == null)
             {
-                throw new ArgumentException("Credenciales no validas");
+                return "Credenciales no validas";
             }
 
             var securityKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_options.SecretForKey));
@@ -81,8 +82,8 @@ namespace Proyecto.Infraestructure.Services
 
             var claims = new List<Claim>
             {
-                new Claim("sub", user.Id.ToString()),
                 new Claim("given_name", user.Name),
+                new Claim("id", user.Id.ToString()),
                 new Claim("role", user.Role)
             };
 
