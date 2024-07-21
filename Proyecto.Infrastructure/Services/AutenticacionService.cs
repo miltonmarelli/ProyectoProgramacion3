@@ -3,7 +3,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Proyecto.Application.Repositories;
+using Proyecto.Domain.Repositories;
 using Proyecto.Domain.Models;
 using Proyecto.Application.Models.Request;
 using Proyecto.Application.IServices;

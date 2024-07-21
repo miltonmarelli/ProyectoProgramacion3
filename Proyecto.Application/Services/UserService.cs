@@ -1,7 +1,7 @@
 ﻿using Proyecto.Application.IServices;
 using Proyecto.Application.Models.Request;
 using Proyecto.Application.Models.Dtos;
-using Proyecto.Application.Repositories;
+using Proyecto.Domain.Repositories;
 using Proyecto.Domain.Models;
 
 namespace Proyecto.Application.Services
@@ -121,7 +121,7 @@ namespace Proyecto.Application.Services
             var NotNullUser = _userRepository.GetUserById(id);
             if (NotNullUser == null)
             {
-                throw new ArgumentException("El usuario no existe.");
+                throw new ArgumentException("El usuario no existe");
             }
 
             NotNullUser.Name = user.Name;

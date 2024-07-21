@@ -1,8 +1,7 @@
 ﻿
 using Proyecto.Domain.Models;
 using Proyecto.Application.IServices;
-using Proyecto.Application.Repositories;
-
+using Proyecto.Domain.Repositories;
 namespace Proyecto.Application.Services
 {
     public class ProductoService : IProductoService

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using Proyecto.Application.Repositories;
+using Proyecto.Domain.Repositories;
 using Proyecto.Domain.Models;
 using Proyecto.Infraestructure.Context;
 

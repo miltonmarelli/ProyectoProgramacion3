@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Proyecto.Infraestructure.Context;
 using Proyecto.Application.IServices;
-using Proyecto.Application.Repositories;
+using Proyecto.Domain.Repositories;
 using Proyecto.Application.Services;
 using Proyecto.Infraestructure.Repositories;
 using Proyecto.Infraestructure.Services;

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Proyecto.Application.Models.Dtos;
-using Proyecto.Application.Repositories;
+using Proyecto.Domain.Repositories;
 using Proyecto.Domain.Models;
 using Proyecto.Infraestructure.Context;
 
@@ -68,16 +68,6 @@ namespace Proyecto.Infraestructure.Repositories
                 }
             }
 
-            public User GetById(int id)
-            {
-            var user = _context.Users.Find(id);
-            if (user == null)
-            {
-                throw new ArgumentException("El usuario no existe");
-            }
-
-            return user;
-            }
 
             public void UpdateUser(User user)
             {

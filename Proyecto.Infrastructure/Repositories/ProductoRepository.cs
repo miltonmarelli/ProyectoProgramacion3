@@ -1,5 +1,5 @@
 ﻿
-using Proyecto.Application.Repositories;
+using Proyecto.Domain.Repositories;
 using Proyecto.Domain.Models;
 using Proyecto.Infraestructure.Context;
 

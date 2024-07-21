@@ -38,7 +38,7 @@ namespace Proyecto.Web.Controllers
             var user = _userService.GetByName(name);
             if (user == null)
             {
-                return NotFound($"Usuario con nombre '{name}' no encontrado.");
+                return NotFound($"Usuario con nombre '{name}' no encontrado");
             }
             return Ok(user);
         }

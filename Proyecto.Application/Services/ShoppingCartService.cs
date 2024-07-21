@@ -1,7 +1,7 @@
 ﻿using System;
 using Proyecto.Application.IServices;
 using Proyecto.Domain.Models;
-using Proyecto.Application.Repositories;
+using Proyecto.Domain.Repositories;
 using Proyecto.Application.Models.Dtos;
 
 namespace Proyecto.Application.Services
@@ -24,13 +24,13 @@ namespace Proyecto.Application.Services
             var client = _userRepository.GetByName(clientName);
             if (client == null)
             {
-                throw new InvalidOperationException($"Shopping cart for client with ID {clientName} not found");
+                throw new InvalidOperationException($"No se encontro el carrito de compras del clientecon nombre {clientName}");
             }
 
             var shoppingCart = _shoppingCartRepository.GetShoppingCartByClientId(client.Id);
             if (shoppingCart == null)
             {
-                throw new InvalidOperationException($"Shopping cart for client with name {clientName} not found.");
+                throw new InvalidOperationException($"No se encontro el carrito de compras del cliente con con ID {client.Id}");
             }
 
             return new ShoppingCartDto

@@ -33,9 +33,9 @@ namespace ProyectoProgIII.Controllers
             var success = _shoppingCartService.AddProductoToCart(clientName, productId);
             if (!success)
             {
-                return NotFound("Product or shopping cart not found");
+                return NotFound("Producto o carrito de compras no encontrado");
             }
-            return Ok("Product added to cart successfully");
+            return Ok("Producto agregado al carrito exitosamente");
         }
 
         [HttpPost("RemoveProductFromCart/{clientName}/{productId}")]
@@ -44,9 +44,9 @@ namespace ProyectoProgIII.Controllers
             var success = _shoppingCartService.RemoveProductoFromCart(clientName, productId);
             if (!success)
             {
-                return NotFound("Product or shopping cart not found");
+                return NotFound("Producto o carrito de compras no encontrado");
             }
-            return Ok("Product removed from cart successfully");
+            return Ok("Producto removido del carrito exitosamente");
         }
     }
 }

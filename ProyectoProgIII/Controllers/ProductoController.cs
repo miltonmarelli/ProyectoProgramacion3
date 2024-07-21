@@ -41,7 +41,7 @@ namespace ProyectoProgIII.Controllers
             var success = _productoService.CreateProduct(producto);
             if (!success)
             {
-                return Conflict("Product with the same ID already exists.");
+                return Conflict("Ya existe un producto con el mismo ID");
             }
             return CreatedAtAction(nameof(GetById), new { id = producto.Id }, producto);
         }
@@ -51,7 +51,7 @@ namespace ProyectoProgIII.Controllers
         {
             if (id != producto.Id)
             {
-                return BadRequest("Invalid product ID");
+                return BadRequest("ID de producto no valido");
             }
             var success = _productoService.UpdateProduct(producto);
             if (!success)
@@ -80,7 +80,7 @@ namespace ProyectoProgIII.Controllers
             {
                 return NotFound();
             }
-            return Ok("Discount applied successfully.");
+            return Ok("El descuento se aplico correctamente");
         }
     }
 }
